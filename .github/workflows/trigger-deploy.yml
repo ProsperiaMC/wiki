@@ -1,0 +1,14 @@
+# name: Trigger Website Rebuild
+
+# on:
+#   push:
+#     branches:
+#       - main # Only trigger when PRs are merged to main
+#   workflow_dispatch:
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Trigger Vercel Deploy
+#         run: curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_YOUR_HOOK_ID_HERE"
