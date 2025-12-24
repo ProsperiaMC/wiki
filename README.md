@@ -2,15 +2,11 @@
 
 Welcome! This guide will show you how to contribute to the Prosperia wiki. Even if you have **never used GitHub**, you can follow these steps.
 
----
-
 ## 1. Getting Started
 
 1. **Create a GitHub account** if you don’t have one: [https://github.com](https://github.com)
 2. **Log in** to GitHub.
 3. Navigate to the **Prosperia Wiki repository**: [https://github.com/ProsperiaMC/wiki](https://github.com/ProsperiaMC/wiki)
-
----
 
 ## 2. Understanding the Repository
 
@@ -21,20 +17,18 @@ The repository contains all the documentation for our Minecraft server.
 * Each page is a `.mdx` file. Think of `.mdx` like a Word document for your page.
 * `_meta.js` files define the **structure of the sidebar** and ordering of pages.
 
----
-
 ## 3. Front-Matter in MDX Files
 
-At the top of each `.mdx` file, there is a small section called **front-matter** or **metadata**, enclosed in `---`. It tells Nextra how to display the page.
+At the top of each `.mdx` file, there is a small section called **front-matter** or **metadata**, enclosed in ``. It tells Nextra how to display the page.
 
 For our wiki, the main properties you need to know are:
 
 ```mdx
----
+
 title: "Economy Survival Rules"
 description: "Rules and guidelines for the Economy Survival gamemode, including trading, land claims, and player conduct."
 sidebarTitle: "Rules"
----
+
 ```
 
 **What each property does:**
@@ -45,8 +39,6 @@ sidebarTitle: "Rules"
 
 > ⚠️ Only edit these if necessary. Changing them can affect how the page appears in the sidebar or search.
 
----
-
 ## 4. File Naming Conventions
 
 * File names should be **lowercase** and use **dashes** instead of spaces:
@@ -56,8 +48,6 @@ sidebarTitle: "Rules"
   * `content/survival/economy-survival-rules.mdx`
   * `content/getting-started/introduction.mdx`
 * Consistent naming keeps the sidebar organized and makes it easier to find pages.
-
----
 
 ## 5. Understanding `_meta.js`
 
@@ -75,8 +65,6 @@ export default [
 
 > The `name` matches the file name (without `.mdx`), and `title` is how it appears in the sidebar.
 
----
-
 ## 6. Editing the Wiki
 
 There are two ways to contribute:
@@ -92,8 +80,6 @@ There are two ways to contribute:
 7. Click **“Propose changes”**.
 
 This creates a **Pull Request (PR)**. It will not change the live wiki until merged.
-
----
 
 ### Option B: Using Git locally (optional for advanced staff)
 
@@ -139,16 +125,12 @@ git push origin my-update
 
 > **Note:** Only advanced staff need this method. Most staff can use the web editor (Option A).
 
----
-
 ## 7. Writing Guidelines
 
 * Use **clear language** and short sentences.
 * Keep the style **friendly and consistent**.
 * Verify rules or commands **in-game** before adding.
 * Do not delete pages unless instructed.
-
----
 
 ## 8. Pull Request Workflow
 
@@ -158,15 +140,11 @@ git push origin my-update
 
 > ⚡ The website automatically fetches the latest content — no need to rebuild manually.
 
----
-
 ## 9. Tips for Non-Technical Staff
 
 * Focus on **text content**; Nextra handles formatting.
 * Always propose changes via **new branches**; never commit directly to `main`.
 * Ask a staff member if unsure about Markdown or front-matter.
-
----
 
 ## 10. Quick Markdown Reference
 
@@ -177,8 +155,6 @@ git push origin my-update
 * **Links:** `[text](url)`
 
 > This is enough for most documentation edits.
-
----
 
 ## 11. Resources
 
